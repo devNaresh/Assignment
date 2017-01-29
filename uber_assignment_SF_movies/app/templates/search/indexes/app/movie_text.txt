@@ -1,0 +1,4 @@
+{{ object.title }}
+{{ object.year }}
+{{ object.production_company }}
+{{ object.director }}

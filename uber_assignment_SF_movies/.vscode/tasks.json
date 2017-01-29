@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "sh",
+    "args": ["-c"],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "Python",
+            "isBuildCommand": true,
+            "args": ["/Users/naresh/.virtualenvs/merchandising27/bin/python ${workspaceRoot}/manage.py runserver"]
+        },
+        {
+            "taskName": "Pytest",
+            "isTestCommand": true,
+            "args": ["/Users/naresh/.virtualenvs/merchandising27/bin/python -m pytest ${workspaceRoot}"]
+        }
+    ]
+}
