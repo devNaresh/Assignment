@@ -65,7 +65,7 @@ class App extends React.Component {
     render() {
         const {value, suggestions} = this.state;
         const inputProps = {
-            placeholder: 'Type a city name',
+            placeholder: 'Type a Title Here',
             value,
             onChange: this.onChange
         };
