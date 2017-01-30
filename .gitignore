@@ -1,2 +1,4 @@
 uber_assignment_client/node_modules
 *.ipynb
+.vscode
+*pyc
