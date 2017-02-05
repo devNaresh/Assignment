@@ -29,7 +29,7 @@ class App extends React.Component {
         self = this;
         let output = function () {
             axios
-                .get('http://localhost:8000/autocomplete/', {
+                .get('http://0.0.0.0:8000/autocomplete/', {
                     params: {
                         q: value
                     }
@@ -53,14 +53,14 @@ class App extends React.Component {
     };
 
     onSuggestionSelected = (event, data) => {
-        let selected_suggestions = []
+        let selected_suggestions = [];
         for (let x of this.state.suggestions){
             if (x.title === data.suggestionValue){
                 selected_suggestions.push(x)
             }
         }
         this.setState({selected_suggestions})
-    }
+    };
 
     render() {
         const {value, suggestions} = this.state;

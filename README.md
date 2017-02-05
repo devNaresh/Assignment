@@ -11,22 +11,20 @@ $ brew doctor
 $ brew install elasticsearch
 $ elasticsearch
 ```
-**Steps To start APP**
-
- 1. Create virtual env.  
- 2. Go to uber_assignment_SF_movies directory.
- 3. run below commands
+**Steps To start APP**  
+ 1. Go to client directory.
+ 2. run below commands
+```sh
+$ npm run build
+```
+ 3. Create virtual env.  
+ 4. Go to server directory.
+ 5. run below commands
 ```sh
 $ pip install -r requirements.txt
 $ python manage.py migrate
 $ python manage.py rebuild_index
 $ python manage.py runserver
-```
-4. Now go to uber_assignment_client directory
-5. run below commands
-```sh
-$ npm install
-$ npm run dev
 ```
 **DEMO**  
 

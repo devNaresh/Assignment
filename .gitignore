@@ -1,4 +1,9 @@
-uber_assignment_client/node_modules
 *.ipynb
-.vscode
-*pyc
+*.vscode
+*.pyc
+.idea/
+client/node_modules/
+server/.ipynb_checkpoints/
+.DS_Store
+.env
+npm-debug.log
