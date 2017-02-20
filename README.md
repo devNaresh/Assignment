@@ -1,4 +1,4 @@
-# Uber Assignment Setup
+# Setup
 ### **Installation**
 
 Requires [Node.js](https://nodejs.org/) v6.6.0+ to run.  
